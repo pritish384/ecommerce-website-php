@@ -27,8 +27,6 @@ This PHP-based E-Commerce website, created by Pritish Purav, integrates Razorpay
 - [Razorpay API Key](https://dashboard.razorpay.com/)
 - [Google OAuth Client ID and Client Secret](https://console.cloud.google.com/)
 
-## Demo
-![Demo](https://cdn.pritishpurav.in/Readme_Assets/Ecommerce_php_website.MP4)
 ## Setup
 1. **Install XAMPP Server:**
     - Download and install XAMPP from [here](https://www.apachefriends.org/index.html)
