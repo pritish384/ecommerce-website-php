@@ -33,7 +33,7 @@ This PHP-based E-Commerce website, created by Pritish Purav, integrates Razorpay
 
 2. **Clone the repository:**
 
-    ```bash
+    ```git
     git clone https://github.com/pritishpurav/e-commerce-website.git
     ```
 
