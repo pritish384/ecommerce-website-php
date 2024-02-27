@@ -1,0 +1,93 @@
+.cartbody{
+	background-color: #e3f0ff;
+}
+
+
+.removebtn{
+	display: inline-block;
+    background-color: #E53E3E;
+    color: #fff;
+    text-decoration: none;
+    padding:5px 10px;
+    border-radius: 2px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+/* make a container "middlecontainer" and then place it in center */
+.middlecontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  
+   
+    
+
+}
+
+table , th ,td{
+    width: 800px;
+}
+
+table {
+    border:3px solid rgb(0, 0, 0);
+    font-size: 40px;
+    
+    
+}
+
+td{
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    border:3px solid rgb(0, 0, 0);
+}
+
+
+
+th{
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border:3px solid rgb(0, 0, 0);
+}
+
+
+/* continuebtn*/
+.continuebtn{
+	display: inline-block;
+    background-color: #38A169;
+    color: #fff;
+    text-decoration: none;
+    padding:5px 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 52px;
+    font-size: 25px;
+    
+    
+}
+
+/* checkoutbtn*/
+.checkoutbtn{
+	display: inline-block;
+    background-color: #38A169;
+    color: #fff;
+    text-decoration: none;
+    padding:5px 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    
+    
+}
+

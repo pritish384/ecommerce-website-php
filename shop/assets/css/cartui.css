@@ -1,0 +1,175 @@
+
+body {
+    background: #ababab !important;
+    min-height: 100vh !important;
+    vertical-align: middle !important;
+    display: flex !important;
+    font-family: sans-serif !important;
+    font-size: 0.8rem !important;
+    font-weight: bold !important;
+}
+    
+
+    .title{
+        margin-bottom: 5vh !important;
+    }
+    .card{
+        margin: auto;
+        max-width: 950px;
+        width: 90%;
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 1rem;
+        border: transparent;
+    }
+    @media(max-width:767px){
+        .card{
+            margin: 3vh auto;
+        }
+    }
+    .cart{
+        background-color: #fff;
+        padding: 4vh 5vh;
+        border-bottom-left-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+    @media(max-width:767px){
+        .cart{
+            padding: 4vh;
+            border-bottom-left-radius: unset;
+            border-top-right-radius: 1rem;
+        }
+    }
+    .summary{
+        background-color: #b1dad6;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding: 4vh;
+        color: rgb(65, 65, 65);
+    }
+    @media(max-width:767px){
+        .summary{
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 1rem;
+        }
+    }
+    .summary .col-2{
+        padding: 0;
+    }
+    .summary .col-10
+    {
+        padding: 0;
+    }.row{
+        margin: 0;
+    }
+    .title b{
+        font-size: 1.5rem ;
+    }
+    .main{
+        margin: 0;
+        padding: 2vh 0;
+        width: 100%;
+    }
+    .col-2, .col{
+        padding: 0 1vh;
+    }
+    a{
+        padding: 0 1vh !important;
+    }
+    .close{
+        margin-left: auto;
+        font-size: 0.7rem;
+    }
+    img{
+        width: 3.5rem !important;
+    }
+    .back-to-shop{
+        margin-top: 4.5rem;
+    }
+    h5{
+        margin-top: 4vh !important;
+    }
+    hr{
+        margin-top: 1.25rem !important;
+    }
+
+    select{
+        border: 1px solid rgba(0, 0, 0, 0.137) !important;
+        padding: 1.5vh 1vh !important;
+        margin-bottom: 4vh !important;
+        outline: none !important;
+        width: 100% !important;
+        background-color: rgb(247, 247, 247) !important;
+    }
+    input{
+        border: 1px solid rgba(0, 0, 0, 0.137) !important;
+        padding: 1vh !important;
+        margin-bottom: 4vh !important;
+        outline: none !important;
+        width: 100% !important;
+        background-color: rgb(247, 247, 247) !important;
+    }
+    input:focus::-webkit-input-placeholder
+    {
+        color:transparent !important;
+    }
+
+
+     .btn {
+        
+        background-color: #000 !important;
+        border-color: #000 !important;
+        color: white !important;
+        width: 100% !important;
+        font-size: 0.7rem !important;
+        margin-top: 4vh !important;
+        padding: 1vh !important;
+        border-radius: 0 !important;
+    }
+
+    .btn:focus{
+        box-shadow: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        color: white !important;
+        -webkit-box-shadow: none !important;
+        transition: none !important; 
+    }
+    .btn:hover{
+        color: white !important;
+    }
+    a{
+        color: black !important;
+    }
+    a:hover{
+        color: black !important;
+        text-decoration: none !important;
+    }
+    #code{
+        
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253) , rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+        background-repeat: no-repeat;
+        background-position-x: 95%;
+        background-position-y: center;
+    }
+
+.imgclass{
+    margin: 0 auto;margin-left: 10%;
+}
+
+
+
+.cursor-pointer {
+    cursor: pointer;
+
+
+}
+
+.close:hover{
+    color: #ff0000 !important;
+}
+
+
+.hidden
+{
+    display: none !important;
+}
